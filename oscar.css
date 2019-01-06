@@ -1,0 +1,25 @@
+@charset "utf-8";
+body{
+ background-color: #33E7FF;
+ font-family: sans-serif;
+}
+h1{
+ color:#005A66;
+ text-align: center;
+ font-size: 400%;
+ letter-spacing: 2%;
+ text-transform: uppercase;
+}
+p{
+ background-color: #00B4CC;
+ border: 5px dashed #005A66;
+ font-style:oblique;
+ margin:2%;
+ padding:2%;
+ width:15%;
+ float:left;
+}
+p::first-letter{
+    font-size: 200%;
+    color:#005A66;    
+}
